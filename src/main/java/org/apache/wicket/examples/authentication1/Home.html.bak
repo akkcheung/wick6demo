@@ -1,0 +1,21 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+    <title>Wicket Examples - signin</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <!-- <span wicket:id="mainNavigation"/> -->
+
+    <h2>Welcome!</h2>
+    <p>
+    This page should be accessible to everyone.
+    </p>
+    <p>
+    <wicket:link><a href="SignOut.html">Sign Out</a></wicket:link><br/>    
+    
+    <wicket:link><a href="BasePage.html">Base Page</a></wicket:link><br/>
+    
+    <wicket:link><a href="AdminPage.html">Admin Page</a></wicket:link><br/>
+    </p>
+</body>
+</html>

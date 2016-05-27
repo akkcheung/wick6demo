@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wicket:extend xmlns:wicket="http://wicket.apache.org">
+
+<wicket:link>
+	
+<a href="modal/ModalWindowPage.html">Modal window</a>: javascript modal window example
+<br/><br/>
+
+<a href="GuestBook.html">Guest book Example</a>: shows how a simple commenting system can be turned into ajax extravaganza.
+<br/><br/>
+
+</wicket:link>
+
+</wicket:extend>

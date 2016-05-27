@@ -1,0 +1,31 @@
+package wicket.quickstartv2;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.markup.html.list.ListItem;
+
+//import org.apache.wicket.markup.html.list.ListView;
+import org.apache.wicket.markup.html.list.PropertyListView;
+import org.apache.wicket.model.LoadableDetachableModel;
+
+import org.apache.wicket.markup.html.WebMarkupContainer;
+
+import wicket.quickstart.model.Movie;
+
+// public class MovieListPage extends WebPage {
+public class MovieListPage extends BasePage {
+   
+   private final WebMarkupContainer movieItems;
+   
+   public MovieListPage() {      	
+    	  movieItems = new MovieItemsContainer("movieItems");
+        add(movieItems);
+        
+        add(new MovieItemsRmContainer("movieItemsRm")); 
+	 }
+	
+	 
+}
+

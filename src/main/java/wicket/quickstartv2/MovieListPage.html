@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+  <head>
+    <meta charset="utf-8" />
+    <title>MovieDB - Movie List</title>
+    <link rel="stylesheet" href="style_quickstart.css" />
+  </head>
+  <body>  	
+  	<header>
+      <nav wicket:id="mainNavigation">
+				navigation links
+			</nav>
+		</header>
+		
+		<h2>Movie List</h2>
+				
+    
+				    <div wicket:id="movieItems">
+				    	<div class="item" wicket:id="movie_list">
+				      <div>		      	
+				      	<div>
+					      	<a href="#" wicket:id="movie_link">
+						        <span wicket:id="title">The Matrix</span>
+						        (<span wicket:id="year">1999</span>)
+									</a>
+									<input type="checkbox" wicket:id="checked" />
+				      	</div>				      	
+				    	</div>
+				    	</div>
+				  	</div>
+		
+		
+		 				<div wicket:id="movieItemsRm">
+		 						<a href="#" wicket:id="remove">Remove completed</a>
+		 				</div>
+		 					
+    <footer>
+      <div id="datetime" wicket:id="datetime">
+         Wed Sep 4 15:32:40 EEST 2013
+      </div>
+    </footer>
+  </body>
+</html>

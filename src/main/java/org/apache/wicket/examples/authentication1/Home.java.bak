@@ -1,0 +1,15 @@
+package org.apache.wicket.examples.authentication1;
+
+// import org.apache.wicket.examples.WicketExamplePage;
+import org.apache.wicket.markup.html.WebPage;
+
+/**
+ * Simple home page, which requires authentication
+ * 
+ * @author Jonathan Locke
+ */
+// public class Home extends WicketExamplePage implements AuthenticatedWebPage
+public class Home extends WebPage
+{
+    // Nothing in here.
+}

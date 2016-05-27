@@ -1,0 +1,9 @@
+package wicket.quickstart;
+
+import wicket.quickstart.model.Movie;
+
+public final class MovieEditPage extends BasePage {
+    public MovieEditPage(Movie movie) {
+        this.add(new MovieEditForm("movie_edit", movie));
+    }
+}

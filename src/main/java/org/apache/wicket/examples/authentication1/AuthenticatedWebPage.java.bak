@@ -1,0 +1,9 @@
+
+package org.apache.wicket.examples.authentication1;
+
+// public class Home extends WicketExamplePage implements AuthenticatedWebPage
+
+public class Home implements AuthenticatedWebPage
+{
+    // Nothing in here.
+}

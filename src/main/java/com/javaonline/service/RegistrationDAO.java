@@ -1,0 +1,19 @@
+package com.javaonline.service;
+
+import org.hibernate.Session;
+
+import com.javaonline.model.RegBean;
+import com.javaonline.util.HibernateUtil;
+
+public class RegistrationDAO extends HibernateUtil {
+ 
+	public RegBean add(RegBean reg) {
+		Session session = HibernateUtil.createSessionFactory().getCurrentSession();
+		session.beginTransaction();
+		session.saveOrUpdate(reg);
+		session.getTransaction().commit();
+		
+		return reg;
+	}
+ 
+}
