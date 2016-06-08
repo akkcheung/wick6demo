@@ -1,0 +1,8 @@
+urlid localhost-mydb
+# url jdbc:hsqldb:file:c:\hsqldb\event;shutdown=true
+url jdbc:hsqldb:hsql://localhost:9001/mydb
+# urlid mydb
+# url jdbc:hsqldb:hsql://localhost:9001
+driver org.hsqldb.jdbcDriver
+username sa
+password

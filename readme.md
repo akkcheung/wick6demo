@@ -1,3 +1,22 @@
+### 2016-06-08
+
+	c9
+	
+		Preview
+		
+			http://ws-ubuntu-akkcheung.c9users.io/wick6demo/
+	
+		maven	
+		
+			mkdir project/wick6demo
+			git init
+	
+	hsqldb
+	
+		./start_hsql_client.sh
+
+		sql > select * from tb_user
+
 ### 2016-05-24
 
 	https://cwiki.apache.org/confluence/display/WICKET/How+to+repaint+a+ListView+via+Ajax

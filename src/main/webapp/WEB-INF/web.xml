@@ -34,22 +34,25 @@
 			<!-- <param-value>org.apache.wicket.examples.repeater.RepeaterApplication</param-value>	-->
 		
 			<!-- ajax builtin -->
-			<param-value>org.apache.wicket.examples.ajax.builtin.AjaxApplication</param-value>
+			<!-- <param-value>org.apache.wicket.examples.ajax.builtin.AjaxApplication</param-value> -->
 			
 			<!-- chartje demo -->
 			<!-- <param-value>org.apache.wicket.examples.chart.ChartApplication</param-value> -->
 			
-			<!-- jasper report demo -->
+			<!-- * jasper report demo -->
 			<!-- <param-value>org.apache.wicket.examples.report.ReportApplication</param-value> -->
 
-			<!-- jasper report demo -->
+			<!-- file upload demo -->
 			<!-- <param-value>org.apache.wicket.examples.upload.UploadApplication</param-value> -->
 			
-			<!-- wicket Quickstart web.itu.edu.t -->
+			<!-- * wicket Quickstart web.itu.edu.t -->
 			<!-- <param-value>wicket.quickstart.WicketApplication</param-value> -->
 			
 			<!-- wicket Quickstart web.itu.edu.t (ajax version)-->
 			<!-- <param-value>wicket.quickstartv2.WicketApplication</param-value> -->
+			
+			<!-- * task demo -->
+			<param-value>com.mycompany.taskDemo.WicketApplication</param-value>
 
 			
 		</init-param>

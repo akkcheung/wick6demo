@@ -97,6 +97,14 @@
 			<version>2.3.2</version>
 		</dependency>
 		
+		<!--
+		<dependency>
+    		<groupId>org.hsqldb</groupId>
+    		<artifactId>sqltool</artifactId>
+    		<version>2.3.2</version>
+		</dependency>
+		-->
+		
 		<!-- hibernate -->				
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -137,11 +145,13 @@
 		</dependency>
 		
 		<!-- chartjs -->
+		<!--
 		<dependency>
 			<groupId>com.pingunaut</groupId>
 			<artifactId>wicket-chartjs</artifactId>
 			<version>6.19.2</version>
 		</dependency>
+		-->
 		
 		<!-- jasperreports -->
 		<dependency>
@@ -150,7 +160,35 @@
 			<version>6.22.0</version>
 		</dependency>
 
+		<!-- lombok -->
+		<dependency> 
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.16.6</version>
+		    <scope>provided</scope>
+		</dependency>
 		
+		<!-- jfreechart -->
+        <dependency>
+            <groupId>jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.0.13</version>
+        </dependency>
+        
+         <!-- wicket-jquery-ui -->
+        <dependency>
+            <groupId>com.googlecode.wicket-jquery-ui</groupId>
+            <artifactId>wicket-jquery-ui</artifactId>
+            <version>6.22.0</version>
+        </dependency>
+        
+         <!-- wicket-jquery-ui-themes -->       
+        <dependency>
+          <groupId>com.googlecode.wicket-jquery-ui</groupId>
+          <artifactId>wicket-jquery-ui-theme-uilightness</artifactId>
+          <version>6.22.0</version>
+        </dependency>
+	  
 	</dependencies>
 	<build>
 		<resources>
@@ -219,7 +257,7 @@
 					</connectors>
 					<scanIntervalSeconds>2</scanIntervalSeconds>
 					<webApp>
-					     <contextPath>/wickApp</contextPath>
+					     <contextPath>/wick6demo</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
